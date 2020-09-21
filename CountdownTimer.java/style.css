@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+body{
+    background-image: url('theme.jpg');
+    height: 100vh; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    margin-left: 575px;
+    margin-top: 100px;
+    font-size: 450%;
+    color: black;
+    font-weight: normal;
+    font-family: 'Ubuntu';
+}
+.countdown{
+    display: flex;
+    margin-left: 570px;
+    margin-top: 50px;
+    text-align: start;
+}
+.total{
+    padding-left:3%;
+}
+.count{
+    font-size: 650%;
+    color: black ;
+    font-weight: bolder;
+}
+.name{
+    font-size: 150%;
+    margin-left: 31px;
+    color: black;
+}
+

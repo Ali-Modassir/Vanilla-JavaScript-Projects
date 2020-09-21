@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-image: url('4246929.jpg');
+}
+
+h1{
+    font-size: 500%;
+    margin-left: 485px;
+    color: #680808;
+}
+
+.clock{
+    height: 360px;
+    width: 360px;
+    border: 22px solid #102133;
+    border-radius: 193px;
+    margin-left: 36%;
+    margin-top: 7%;
+}
+
+.hand{
+    width: 171px;
+    height: 6px;
+    background: black;
+    position: fixed;
+    top: 44%;
+    margin-left: 10px ;
+    margin-top: 1px ;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(.02,2.7,.58,1);
+}

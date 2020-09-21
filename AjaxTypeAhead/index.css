@@ -1,0 +1,22 @@
+body{
+    background-image: url('126438.png');
+}
+#searchbar{
+    border : 2px solid gold ; 
+    border-radius: 20px;
+    margin-top: 10% ;
+    margin-left: 40% ;
+    width: 20%;
+    padding: 10px;
+    font-size: xx-large;
+}
+.suggestion li{
+   border : 4px solid yellow ;
+   width: 20%;
+   margin-top: 10px;
+   margin-left: 39% ;
+   list-style: none;
+   padding: 7px ; 
+   font-size: x-large;
+
+}
